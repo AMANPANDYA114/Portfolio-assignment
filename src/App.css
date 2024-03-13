@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+.cards1{
+margin-top: 20%;
+}
+.rotate {
+  
+    position: relative;
+  
+    transform: rotate(-90deg);
+
+}
+.anish{
+    color:gray;
+    border-bottom: 3px solid black;
+}
+.para{
+    font-size: 30px;
+    font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.buttonadj {
+    font-weight: 700;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background: linear-gradient(to bottom, #32F6F6, #A6A79F);
+    border: none; /* Remove border */
+    width: 27% !important;
+    height: 44px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black; /* You can remove this line */
+    border-top-left-radius: 30px; /* Unique border radius for top-left corner */
+    border-top-right-radius: 30px; /* Unique border radius for top-right corner */
+    border-bottom-right-radius: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.vertical-text {
+    display: block;
+    margin-bottom: -23px;
   }
+.btn1{
+
+    font-weight: 700;
+    border: 6px solid white;
+    box-shadow: 0px 10px  9px grey;
+    white-space: nowrap;
+    background: linear-gradient(to bottom, #DF580C, #FD993D);
+
+}
+.list3{
+    margin-left:-10% ! important;
+}
+.list2 {
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text6{
+    position:relative;
+    top:46%;
+}
+.rot {
+    font-size: 10px;
+    white-space: nowrap;
+    margin-left: 90% !important;
+    margin-top: 30px !important; /* Adjust the unit (px, em, etc.) as needed */
+}
+.textmiddle {
+    font-size: 20px;
+    font-weight: 300; /* Adjust this value to reduce boldness */
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn2{
+    font-weight: 700;
+    border: 3px solid white;
+    white-space: nowrap;
+    background: linear-gradient(to bottom, #434343, #000000);
+
+}
+.bd-highlight{
+    margin-top: -6%;
+}
+/* 
+.lb {
+    margin-left:-6% !important;
+    border: 1px solid black;
+    width: 30%;
+    height: 17%;
+    border-radius: 60%;
+} */
+i {
+    height: 10%;
+    background-color: white;
+    border-radius: 56%;
+    border: 1px solid black;
+
+    
+    padding: 3px;
   }
-  to {
-    transform: rotate(360deg);
+  .card4{
+
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1191.20px) {
+    /* Add your specific styles here */
+  .card4{
+    margin-left: 23%;
+  }
+  .cardadjust {
+    margin-right:  !important;
+  }
+  
+}
+.dark-mode {
+    background-color: black;
+    color: white; /* Optionally, set text color to white for better visibility */
+  }
+  
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .itemnav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin-bottom: 3px;
+    }
+}
+
+  
+.itemnav {
+   
+    font-weight: 600;
+
 }
